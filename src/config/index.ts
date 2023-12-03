@@ -16,7 +16,7 @@ export const PRODUCT_CATEGORIES = [
       {
         name: "Best Sellers",
         href: "#",
-        imageSrc: "/nav/ui-kits/purle.jpg",
+        imageSrc: "/nav/ui-kits/purple.jpg",
       },
     ],
   },
