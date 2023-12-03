@@ -66,7 +66,7 @@ export default function Home() {
         {/* TODO:list products */}
       </MaxWidthWrapper>
 
-      <section className="border-t border-gray-200 bg-gray-50 py-2">
+      <section className="border-t border-gray-200 bg-gray-50 py-4">
         <MaxWidthWrapper className="py-20">
           <div className="grid  grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-0">
             {perks.map((perk) => (
@@ -76,7 +76,7 @@ export default function Home() {
               >
                 <div className="md:flex-shrink-0 flex justify-center">
                   <div className="w-12 h-12 flex items-center justify-center rounded-full bg-blue-100 text-blue-900">
-                    {<perk.icon />}
+                    {<perk.icon className="w-1/3 h-1/3" />}
                   </div>
                 </div>
                 <div className="mt-6 md:ml-4 md:mt-0 lg:ml-0 lg:mt-6">
